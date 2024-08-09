@@ -1,0 +1,46 @@
+#releases-title {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+#releases a {
+    text-decoration: n;
+}
+
+#releases a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.albums {
+    background-color: maroon;
+    padding: 20px;
+}
+
+.album {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+.album-img {
+    max-width: 40%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.album-desc {
+    max-width: 55%;
+    flex-grow: 1;
+}
+
+.album-desc h2 {
+    text-decoration: underline;
+}
