@@ -1,46 +1,33 @@
-#releases-title {
+#release-header {
     text-align: center;
-    text-decoration: underline;
-    
 }
 
-#releases a {
-    text-decoration: n;
+.year {
+    text-align: center;
 }
 
-#releases a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-.albums {
-    background-color: maroon;
-    padding: 20px;
-}
-
-.album {
+.grid-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 8px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     padding: 20px;
-    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.album-img {
-    max-width: 40%;
+.grid-container img {
+    flex: 0 0 250px;
+    max-width: 250px;
+    width: 100%;
     height: auto;
-    flex-shrink: 0;
-    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.album-desc {
-    max-width: 55%;
-    flex-grow: 1;
-}
-
-.album-desc h2 {
-    text-decoration: underline;
+/* Responsive for smaller devices */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
