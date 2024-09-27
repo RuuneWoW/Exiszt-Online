@@ -125,3 +125,44 @@ body{
 #apperances{
     text-align: center;
 }
+
+footer {
+    background-color: rgb(20, 21, 22);
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 3px;
+    border-color: aqua;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.social-icons li {
+    margin: 0 15px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+footer .copyright {
+    color: #fff;
+    margin: 20px 0 10px 0;
+    font-size: 14px;
+}
