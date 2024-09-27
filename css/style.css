@@ -127,8 +127,11 @@ body{
 }
 
 footer {
-    padding: 20px 0 10px 0;
+    background-color: rgb(20, 21, 22);
+    padding: 20px 0;
     text-align: center;
+    border-radius: 3px;
+    border-color: aqua;
 }
   
 .footer-content {
@@ -160,7 +163,7 @@ footer {
 
 footer .copyright {
     color: #fff;
-    margin-top: 20px;
+    margin: 20px 0 10px 0;
     font-size: 14px;
 }
   
