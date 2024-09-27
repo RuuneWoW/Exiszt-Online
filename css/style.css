@@ -81,8 +81,9 @@ body{
 	filter: grayscale(0);
 }
 
-.covers a {
+.main a {
     text-decoration: none;
+    color: white;
 }
 
 .main a:visited {
