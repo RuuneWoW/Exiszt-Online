@@ -157,4 +157,10 @@ footer {
 .social-icons a:hover img {
     transform: scale(1.2);
 }
+
+footer .copyright {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
   
